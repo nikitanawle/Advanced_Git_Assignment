@@ -1,11 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
-</body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/209aeb1594.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background-color: #405bd3">
+      <nav style="max-width: 1100px; margin: auto; height: 65px;">
+        <div class="flex items-center justify-between h-full">
+          <div class="w-40 h-10">
+            <img
+              class="w-full h-full"
+              src="https://ali-global-cdn.hellotalk8.com/www/image/logo/HelloTalk-1@2.png?v=2"
+              alt=""
+            />
+          </div>
+          <div
+            class="text-lg text-white flex justify-between"
+            style="width: 400px"
+          >
+            <span>About</span><span>HelloTalkWeb</span><span>English</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main style="background-color: #405bd3; height: 700px; overflow: hidden">
+      <div class="flex gap-x-20">
+        <div
+          style="height: 890px; margin-top: 30px"
+          class="flex items-center p-3"
+        >
+          <img
+            style="height: 760px; width: 650px"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-phone-header.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div class="text-white p-1" style="width: 457px; margin-top: 120px">
+          <div style="font-size: 55px; font-weight: 700">
+            <h1>Talk to the World</h1>
+          </div>
+          <div class="text-xl">
+            <p>
+              Learn a language for free by chatting with native speakers around
+              the world!
+            </p>
+          </div>
+
+          <div class="flex gap-x-12" style="margin-top: 80px">
+            <div
+              style="width: 172px; height: 202px"
+              class="rounded bg-white"
+            ></div>
+            <div
+              style="width: 172px; height: 202px"
+              class="rounded bg-white"
+            ></div>
+          </div>
+
+          <div class="flex gap-x-14" style="margin-top: 60px">
+            <div>
+              <h1 class="text-3xl font-bold">150+</h1>
+              <p class="text-xl">Languages supported</p>
+            </div>
+            <div>
+              <h1 class="text-3xl font-bold">50+ million</h1>
+              <p class="text-xl">Members to chat with</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section
+      class="p-3"
+      style="
+        padding-top: 61px;
+        text-align: center;
+        max-width: 1100px;
+        margin: auto;
+      "
+    >
+      <h1 style="font-size: 32px">The UItimate Language Exchange</h1>
+      <p style="font-size: 22px">
+        Learn a language, explore new cultures, and make friends around the
+        world
+      </p>
+      <div
+        class="grid grid-cols-2 grid-rows-3 gap-12"
+        style="margin-top: 100px"
+      >
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/worldwide-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Worldwide Community
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Native speakers teach you their language, while you teach them
+            yours. Millions of people use HelloTalk to practice 150+ languages.
+          </p>
+        </div>
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/text-voice-video-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Text, Voice, Video, and More
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Chat with language partners through text and voice messages,
+            stickers, voice and video calls, and interactive Voicerooms and
+            Lives. Whatever your communication preference, choose the method
+            that best fits your learning goals!
+          </p>
+        </div>
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/translation-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Intuitive Language Tools
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Built-in aids for translation, pronunciation, transliteration, and
+            corrections make conversations run smoothly. Learning is as simple
+            as chatting!
+          </p>
+        </div>
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/public-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Moments
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Engage with the entire community by posting Moments. The public
+            posts are seen by all native speakers of your target language and
+            are ideal for asking questions and sharing updates.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
+
