@@ -1,11 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/209aeb1594.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      #sumit  {
+        margin-top: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+      }
+      #sumit > div  img {
+        width: 555px;
+        height: 700px;
+      }
+      .header{
+        font-size: 30px;
+        font-weight: 900;
+        margin-top: 150px;
+      }
+      #border{
+        width: 80px;
+        height: 10px;
+        background-color: blue;
+        margin-top: 20px;
+        margin-bottom: 50px;
+      }
+      .first{
+            width: 476px;
+            height: 210px;
+            color: rgb(133, 133, 133);
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 30px;
+      }
+      .buttons{
+        width: auto; 
+        height: auto; 
+        padding: 20px 55px 20px 55px;  
+        border: 1.5px solid white; 
+        border-radius: 40px; 
+        color: white;
+        background-color: transparent;
+      }
+      .buttons:hover{
+        background-color: rgb(31, 222, 31);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background-color: #405bd3">
+      <nav style="max-width: 1100px; margin: auto; height: 65px;">
+        <div class="flex items-center justify-between h-full">
+          <div class="w-40 h-10">
+            <img
+              class="w-full h-full"
+              src="https://ali-global-cdn.hellotalk8.com/www/image/logo/HelloTalk-1@2.png?v=2"
+              alt=""
+            />
+          </div>
+          <div
+            class="text-lg text-white flex justify-between"
+            style="width: 400px"
+          >
+            <span>About</span><span>HelloTalkWeb</span><span>English</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main style="background-color: #405bd3; height: 700px; overflow: hidden">
+      <div class="flex gap-x-20">
+        <div
+          style="height: 890px; margin-top: 30px"
+          class="flex items-center p-3"
+        >
+          <img
+            style="height: 760px; width: 650px"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-phone-header.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div class="text-white p-1" style="width: 457px; margin-top: 120px">
+          <div style="font-size: 55px; font-weight: 700">
+            <h1>Talk to the World</h1>
+          </div>
+          <div class="text-xl">
+            <p>
+              Learn a language for free by chatting with native speakers around
+              the world!
+            </p>
+          </div>
+
+          <div class="flex gap-x-12" style="margin-top: 80px">
+            <div
+              style="width: 172px; height: 202px"
+              class="rounded bg-white"
+            ></div>
+            <div
+              style="width: 172px; height: 202px"
+              class="rounded bg-white"
+            ></div>
+          </div>
+
+          <div class="flex gap-x-14" style="margin-top: 60px">
+            <div>
+              <h1 class="text-3xl font-bold">150+</h1>
+              <p class="text-xl">Languages supported</p>
+            </div>
+            <div>
+              <h1 class="text-3xl font-bold">50+ million</h1>
+              <p class="text-xl">Members to chat with</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section
+      class="p-3"
+      style="
+        padding-top: 61px;
+        text-align: center;
+        max-width: 1100px;
+        margin: auto;
+      "
+    >
+      <h1 style="font-size: 32px">The UItimate Language Exchange</h1>
+      <p style="font-size: 22px">
+        Learn a language, explore new cultures, and make friends around the
+        world
+      </p>
+      <div
+        class="grid grid-cols-2 grid-rows-3 gap-12"
+        style="margin-top: 100px"
+      >
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/worldwide-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Worldwide Community
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Native speakers teach you their language, while you teach them
+            yours. Millions of people use HelloTalk to practice 150+ languages.
+          </p>
+        </div>
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/text-voice-video-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Text, Voice, Video, and More
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Chat with language partners through text and voice messages,
+            stickers, voice and video calls, and interactive Voicerooms and
+            Lives. Whatever your communication preference, choose the method
+            that best fits your learning goals!
+          </p>
+        </div>
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/translation-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Intuitive Language Tools
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Built-in aids for translation, pronunciation, transliteration, and
+            corrections make conversations run smoothly. Learning is as simple
+            as chatting!
+          </p>
+        </div>
+        <div>
+          <img
+            class="block"
+            style="margin: 0px auto 15px"
+            src="https://ali-global-cdn.hellotalk8.com/wp-content/uploads/2017/07/public-icon.svg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold" style="margin-bottom: 15px">
+            Moments
+          </h1>
+          <p class="text-lg" style="color: #868888">
+            Engage with the entire community by posting Moments. The public
+            posts are seen by all native speakers of your target language and
+            are ideal for asking questions and sharing updates.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section style="height: 600px;">
+      <div class="grid grid-cols-2">
+        <div>
+          <img style="width: 555px; height: 779px;"
+            src="https://ali-global-cdn.hellotalk8.com/www/image/hellotalk-longpressmenu-home.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750"
+            alt=""
+          />
+        </div>
+        <div style="margin-top: 130px; " class="p-3">
+          <h1 style="font-size: 40px; " class="font-bold">Learn by Chatting</h1>
+          <div style="width: 70px; height: 10px; margin-top: 20px; " class="bg-blue-700"></div>
+          <p style="margin-top: 60px; font-size: 22px; color: #868888">
+            The best way to learn a language is to actually speak it! HelloTalk
+            connects you with native speakers to chat with for free. <br><br> But this
+            isn't your standard social app. The interface is packed with
+            innovative tools to make it fun and effortless to learn a new
+            language. <br><br> You can chat with individual members, or join group chats
+            for a collaborative learning experience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="sumit">
+        <div>
+            <img src="https://ali-global-cdn.hellotalk8.com/www/image/phone-3.png?ver=0.1.0&x-oss-process=image/format,webp,image/resize,w_750" alt="">
+        </div>
+        <div id="second">
+            <h1 class="header">SEARCH THE WORLD</h1>
+            <div id="border"></div>
+            <p class="first">Search for language exchange partners by native language, city, distance from you, and more. <br><br> Whether it's across the world or across town, you'll instantly find suitable partners to begin a conversation with.</p>
+        </div>
+    </section>
+    <section>
+        <div style="background-color: rgb(249,249,249); margin-top: 100px;">
+            <div>
+                <h3 style="font-size: 32px; font-weight: 600; color: rgb(49, 50, 54); line-height: 70px; text-align: center; padding-top: 70px;">What People are Saying</h3>
+                <p style="color: rgb(133, 133, 133); text-align: center; font-size: 22px; font-weight: 400; line-height: 36px; margin-bottom: 130px;">It's never been this fun to learn languages. Millions of happy HelloTalk members agree!</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows: repeat(2,1fr); justify-content: space-evenly; gap: 20px; margin-left: 50px; margin-right: 50px; margin-bottom: 150px;">
+                <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">
+                    <div style="padding-top: 50px; padding-bottom: 30px; display: flex; justify-content: center; gap: 20px;">
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                    </div>
+                    <h3 style="font-size: 20px; font-weight: 700; text-align: center; line-height: 50px;">Learned a lot</h3>
+                    <p style="width: 290px; height: 100px; font-size: 18px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-bottom: 30px; display: block; margin: auto;">I'm surprised at how friendly people are and how they genuinely are interested in learning and meeting new friends.</p>
+                    <p style="font-size: 16px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-top: 40px;  padding-bottom: 30px;">by Kris__001 via the App Store</p>
+                </div>
+                <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">
+                    <div style="padding-top: 50px; padding-bottom: 30px; display: flex; justify-content: center; gap: 20px;">
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                    </div>
+                    <h3 style="font-size: 20px; font-weight: 700; text-align: center; line-height: 50px;">Learned a lot</h3>
+                    <p style="width: 290px; height: 100px; font-size: 18px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-bottom: 30px; display: block; margin: auto;">I'm surprised at how friendly people are and how they genuinely are interested in learning and meeting new friends.</p>
+                    <p style="font-size: 16px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-top: 40px;  padding-bottom: 30px;">by Kris__001 via the App Store</p>
+                </div>
+                <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">
+                    <div style="padding-top: 50px; padding-bottom: 30px; display: flex; justify-content: center; gap: 20px;">
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                    </div>
+                    <h3 style="font-size: 20px; font-weight: 700; text-align: center; line-height: 50px;">Learned a lot</h3>
+                    <p style="width: 290px; height: 100px; font-size: 18px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-bottom: 30px; display: block; margin: auto;">I'm surprised at how friendly people are and how they genuinely are interested in learning and meeting new friends.</p>
+                    <p style="font-size: 16px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-top: 40px;  padding-bottom: 30px;">by Kris__001 via the App Store</p>
+                </div>
+                <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">
+                    <div style="padding-top: 50px; padding-bottom: 30px; display: flex; justify-content: center; gap: 20px;">
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                    </div>
+                    <h3 style="font-size: 20px; font-weight: 700; text-align: center; line-height: 50px;">Learned a lot</h3>
+                    <p style="width: 290px; height: 100px; font-size: 18px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-bottom: 30px; display: block; margin: auto;">I'm surprised at how friendly people are and how they genuinely are interested in learning and meeting new friends.</p>
+                    <p style="font-size: 16px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-top: 40px;  padding-bottom: 30px;">by Kris__001 via the App Store</p>
+                </div>
+                <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">
+                    <div style="padding-top: 50px; padding-bottom: 30px; display: flex; justify-content: center; gap: 20px;">
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                    </div>
+                    <h3 style="font-size: 20px; font-weight: 700; text-align: center; line-height: 50px;">Learned a lot</h3>
+                    <p style="width: 290px; height: 100px; font-size: 18px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-bottom: 30px; display: block; margin: auto;">I'm surprised at how friendly people are and how they genuinely are interested in learning and meeting new friends.</p>
+                    <p style="font-size: 16px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-top: 40px;  padding-bottom: 30px;">by Kris__001 via the App Store</p>
+                </div>
+                <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px;">
+                    <div style="padding-top: 50px; padding-bottom: 30px; display: flex; justify-content: center; gap: 20px;">
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                        <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;">  </i>
+                    </div>
+                    <h3 style="font-size: 20px; font-weight: 700; text-align: center; line-height: 50px;">Learned a lot</h3>
+                    <p style="width: 290px; height: 100px; font-size: 18px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-bottom: 30px; display: block; margin: auto;">I'm surprised at how friendly people are and how they genuinely are interested in learning and meeting new friends.</p>
+                    <p style="font-size: 16px; font-weight: 400; text-align: center; color: rgb(133, 133, 133); margin-top: 40px;  padding-bottom: 30px;">by Kris__001 via the App Store</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="background-color: rgb(67,94,217); height: auto; padding-top: 80px; padding-bottom: 90px; box-sizing: border-box;">
+            <div>
+                <p style="font-size: 30px; color: white; font-weight: 500; text-align: center; margin-bottom: 10px;">Language acquisition the natural way</p>
+                <p style="font-size: 22px; color: white; font-weight: 400; text-align: center; margin-bottom: 50px;">Learn with millions of native speakers using our mobile app</p> 
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                <div class="buttons">IOS Download</div>
+                <div class="buttons">Andoid Download</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div style="display: flex; justify-content: space-evenly; align-items: center; margin-bottom: 100px;">
+            <div style="margin-top: 80px; display: flex; gap: 30px; align-items: center;">
+                <p>Follow us:</p>
+                <div><i class="fa-brands fa-youtube"></i></div>
+                <div><i class="fa-brands fa-twitter"></i></div>
+                <div><i class="fa-brands fa-facebook"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div style="display: flex; gap: 30px; margin-top: 80px;">
+                <div>Top Moments</div>
+                <div>AI Grammar</div>
+                <div> English Stories</div>
+                <div>Press Kit</div>
+                <div>HelloTalk Web</div>
+                <div>Jobs</div>
+                <div>Blog</div>
+                <div>About</div>
+                <div>Help</div>
+            </div>
+        </div>
+    </footer>
+  </body>
 </html>
+
